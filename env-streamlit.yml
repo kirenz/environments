@@ -1,0 +1,15 @@
+name: streamlit
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - seaborn
+    - scikit-learn
+    - jupyter
+    - altair
+    - plotly
+    - matplotlib
