@@ -1,0 +1,16 @@
+name: ds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - voila
+  - rise
+  - scikit-learn
+  - altair
+  - vega_datasets
+  - matplotlib
+  - seaborn
