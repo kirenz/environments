@@ -1,0 +1,21 @@
+name: bigdata
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - requests
+  - pandas
+  - jupyter
+  - tweepy
+  - networkx
+  - tensorflow
+  - beautifulsoup4
+  - altair
+  - vega_datasets
+  - matplotlib
+  - seaborn
+  - streamlit
+  - scikit-learn
+  - sqlalchemy
+  - psycopg2
