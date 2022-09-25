@@ -33,7 +33,9 @@ conda env create -f NAME_OF_ENVIRONMENT.yml
 conda activate ds
 ```
 
-Now you can start to use this environment. For example, you could start a Jupyter Notebook with:
+---
+
+That's it! Now you can start to use this environment. For example, you could start a Jupyter Notebook with:
 
 ```bash
 jupyter notebook
