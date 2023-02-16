@@ -48,10 +48,9 @@ jupyter notebook
 
 ## Additional notes
 
-Next time you start Anaconda, you will again need to avtivate your course-environment.
+Next time you'll start conda, you will again need to avtivate your course-environment.
 
-
-*If needed, you can deactivate the environment with (however, this is usually not necessary)* 
+*If needed, you can deactivate the environment to get back to your base environment (however, this is usually not necessary)* 
 
 ```bash
 conda deactivate
