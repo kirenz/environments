@@ -3,12 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
+  - python=3.10
   - pandas
   - openpyxl
   - jupyter
   - jupyter_contrib_nbextensions
-  - voila
   - rise
   - scikit-learn
   - altair
@@ -17,7 +16,6 @@ dependencies:
   - seaborn
   - requests
   - tweepy
-  - tensorflow
   - beautifulsoup4
   - streamlit
   - sqlalchemy
