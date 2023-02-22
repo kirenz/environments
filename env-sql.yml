@@ -9,6 +9,6 @@ dependencies:
   - jupyter
   - altair
   - requests
-  - sqlalchemy
+  - sqlalchemy=1.4.46
   - psycopg2
   - ipython-sql
