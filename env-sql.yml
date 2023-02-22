@@ -11,3 +11,4 @@ dependencies:
   - requests
   - sqlalchemy
   - psycopg2
+  - ipython-sql
