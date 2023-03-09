@@ -25,7 +25,7 @@ Open this link to import all extensions in VS Code:
 
 ## Anaconda virtual environment
 
-Follow this instructions to create virtual environemnts: 
+Follow this instructions to create virtual environments: 
 
 - [Create virtual environment](https://github.com/kirenz/environments/blob/main/README.md)
 
