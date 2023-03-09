@@ -9,7 +9,6 @@ dependencies:
   - jupyter
   - tweepy
   - networkx
-  - tensorflow
   - beautifulsoup4
   - altair
   - vega_datasets
