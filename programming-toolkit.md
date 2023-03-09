@@ -18,10 +18,9 @@ Move VS Code to the Applications ("Programme") folder after you have downloaded 
 
 Open this link to import all extensions in VS Code:
 
-![VS Code profile](https://vscode.dev/profile/github/020c5ef976f3501c8d312314e6e30f53)
+- [VS Code profile](https://vscode.dev/profile/github/020c5ef976f3501c8d312314e6e30f53)
 
 *Choose: Import Profile in Visual Studio Code*
-
 
 ## Anaconda virtual environment
 
