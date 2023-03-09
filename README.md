@@ -1,7 +1,6 @@
 # Conda environment
 
 
-
 ## Install environment
 
 
@@ -29,41 +28,12 @@ cd MY_PATH/environment
 conda env create -f NAME_OF_ENVIRONMENT.yml
 ```
 
+That's it!
+
 ---
 
-- Step 5: Activate the environment (you simply need to type the name after "env", e.g. for "env-ds": ds):
-
+*If you want to use the environment, you simply need to type the name after "env", e.g. for "env-ds" ds:*
 
 ```bash
 conda activate ds
 ```
-
----
-
-That's it! Now you can start to use this environment. For example, you could start a Jupyter Notebook with:
-
-```bash
-jupyter notebook
-```
-
----
-
-## Additional notes
-
-Next time you'll start conda, you will again need to avtivate your course-environment.
-
-*If needed, you can deactivate the environment to get back to your base environment (however, this is usually not necessary)* 
-
-```bash
-conda deactivate
-```
-
-## What is YAML?
-
-YAML is a data serialization language that is often used for writing configuration files. The files contain text data arranged in a hierarchical structure and can be used as `.yaml` or `.yml`.
-
-To learn more about `.yml` files, visit the following resources:
-
-- [Creating an environment from an environment.yml file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-
-- [Creating an environment file manually](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)
