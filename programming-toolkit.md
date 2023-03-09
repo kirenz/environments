@@ -10,7 +10,7 @@ Install the latest version of the Anaconda Individual Edition:
 
 ## Visual Studio Code 
  
-- 💾 Downnload [VS Code](https://code.visualstudio.com/)  
+- 💾 Download [VS Code](https://code.visualstudio.com/)  
 
 Move VS Code to the Applications ("Programme") folder after you have downloaded it.
 
