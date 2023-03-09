@@ -4,7 +4,7 @@
 ## Install environment
 
 
-- Step 1: Download this repository as zip-file:
+- Step 1: Download this repository as zip-file (click on the green `<> Code`button at the top of this page and choose `Download ZIP`) button:
 
 ![](download.png)
 
