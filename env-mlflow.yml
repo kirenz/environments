@@ -10,3 +10,4 @@ dependencies:
       - mlflow[pipelines]
       - pandas
       - jupyter
+      - autopep8

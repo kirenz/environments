@@ -9,3 +9,4 @@ dependencies:
   - altair
   - matplotlib
   - scikit-learn
+  - autopep8

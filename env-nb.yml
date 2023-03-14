@@ -17,3 +17,4 @@ dependencies:
   - nltk
   - requests
   - beautifulsoup4
+  - autopep8

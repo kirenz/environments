@@ -9,3 +9,4 @@ dependencies:
   - tensorflow
   - altair
   - matplotlib
+  - autopep8

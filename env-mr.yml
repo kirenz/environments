@@ -12,3 +12,4 @@ dependencies:
   - altair
   - matplotlib
   - seaborn
+  - autopep8
