@@ -4,17 +4,8 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - requests
   - pandas
   - jupyter
-  - tweepy
-  - networkx
-  - beautifulsoup4
   - altair
-  - vega_datasets
   - matplotlib
-  - seaborn
-  - streamlit
   - scikit-learn
-  - sqlalchemy
-  - psycopg2
