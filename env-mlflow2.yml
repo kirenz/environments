@@ -1,3 +1,4 @@
+name: mlflow-env
 channels:
   - conda-forge
 dependencies:
@@ -10,4 +11,4 @@ dependencies:
       - scikit-learn==1.2.1
       - ipykernel
       - autopep8
-name: mlflow-env
+
