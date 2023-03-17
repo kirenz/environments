@@ -16,3 +16,4 @@ dependencies:
       - databases[mysql]
       - sqlalchemy
       - python-dotenv
+      - cryptography
