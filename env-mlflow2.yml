@@ -11,4 +11,6 @@ dependencies:
       - scikit-learn==1.2.1
       - ipykernel
       - autopep8
+      - fastapi
+      - uvicorn
 
