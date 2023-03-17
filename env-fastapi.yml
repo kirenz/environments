@@ -15,3 +15,4 @@ dependencies:
       - uvicorn
       - databases[mysql]
       - sqlalchemy
+      - python-dotenv
