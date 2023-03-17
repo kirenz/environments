@@ -13,3 +13,5 @@ dependencies:
       - autopep8
       - fastapi
       - uvicorn
+      - databases[mysql]
+      - sqlalchemy
