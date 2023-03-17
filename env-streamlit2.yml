@@ -12,3 +12,4 @@ dependencies:
       - ipykernel
       - autopep8
       - streamlit
+      - altair
