@@ -1,0 +1,13 @@
+name: dst
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - openpyxl
+  - jupyter
+  - altair
+  - vega_datasets
+  - streamlit
+  - autopep8
