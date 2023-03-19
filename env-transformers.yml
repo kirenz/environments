@@ -5,9 +5,9 @@ dependencies:
   - python=3.10
   - pytorch
   - torchvision
-  - torchaudio
   - tensorflow
   - transformers
+  - datasets
   - pandas
   - altair
   - ipython
