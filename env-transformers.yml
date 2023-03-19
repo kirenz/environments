@@ -12,3 +12,5 @@ dependencies:
   - altair
   - ipython
   - jupyter
+  - autopep8
+
