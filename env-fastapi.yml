@@ -17,3 +17,4 @@ dependencies:
       - sqlalchemy
       - python-dotenv
       - cryptography
+      - jupyter
