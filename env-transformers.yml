@@ -1,0 +1,14 @@
+name: transformers-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorflow
+  - transformers
+  - pandas
+  - altair
+  - ipython
+  - jupyter
