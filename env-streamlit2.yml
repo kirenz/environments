@@ -13,3 +13,4 @@ dependencies:
       - autopep8
       - streamlit
       - altair
+      - jupyter
