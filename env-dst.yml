@@ -9,5 +9,4 @@ dependencies:
   - jupyter
   - altair
   - vega_datasets
-  - streamlit
   - autopep8
