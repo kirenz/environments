@@ -14,5 +14,4 @@ dependencies:
   - jupyter
   - autopep8
   - evaluate
-  - google-colab
 
