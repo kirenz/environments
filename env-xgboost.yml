@@ -1,0 +1,11 @@
+name: xgboost
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - xgboost
+  - jupyter
+  - altair
+  - autopep8
