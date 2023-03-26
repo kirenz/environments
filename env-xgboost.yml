@@ -4,9 +4,12 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - pandas
-  - xgboost
-  - jupyter
-  - altair
-  - streamlit
-  - autopep8
+  - pip
+  - pip:
+      - pandas
+      - xgboost
+      - jupyter
+      - altair
+      - streamlit
+      - autopep8
+      - scikit-learn
