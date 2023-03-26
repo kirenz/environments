@@ -13,3 +13,4 @@ dependencies:
       - streamlit
       - autopep8
       - scikit-learn
+      - fastapi
