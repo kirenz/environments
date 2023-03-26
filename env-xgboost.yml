@@ -8,4 +8,5 @@ dependencies:
   - xgboost
   - jupyter
   - altair
+  - streamlit
   - autopep8
