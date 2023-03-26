@@ -14,3 +14,4 @@ dependencies:
       - autopep8
       - scikit-learn
       - fastapi
+      - uvicorn
