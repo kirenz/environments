@@ -1,0 +1,18 @@
+name: bigdata-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - jupyter
+      - altair
+      - matplotlib
+      - scikit-learn
+      - streamlit
+      - fastapi
+      - uvicorn
+      - autopep8
+      - ipykernel
