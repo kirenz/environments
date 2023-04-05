@@ -10,14 +10,24 @@
 
 ---
 
-- Step 2: Move the folder to a location (e.g. "MY_PATH") of your choice and unzip it.
+- Step 2: Unzip the file in your *Downloads* directory.
 
 ---
 
-- Step 3: Open your terminal and `cd` into the "environment" directory (replace MY_PATH with your path)
+- Step 3:
+  - Mac: Open your [terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Terminal%20for%20me-,Open%20Terminal,%2C%20then%20double%2Dclick%20Terminal.) and `cd` into the "environment" directory (replace MY_PATH with your path)
+  - Windows: Open your [Anaconda promt](https://docs.anaconda.com/anaconda/install/verify-install/#conda) `cd` into the "environment" directory (replace MY_PATH with your path)
+
+Mac: (replace YourUserName with your actual username)
 
 ```bash
-cd MY_PATH/environment
+cd /Users/YourUserName/Downloads
+```
+
+Windows (replace YourUserName with your actual username):
+
+```bash
+cd C:\Users\YourUserName\Downloads
 ```
 
 ---
