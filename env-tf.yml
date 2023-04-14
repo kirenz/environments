@@ -3,12 +3,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - pip=23.0.1
-  - pip:
-      - pandas
-      - jupyter
-      - tensorflow
-      - altair
-      - matplotlib
-      - autopep8
+  - python=3.11
+  - tensorflow
+  - jupyter
+  - matplotlib
+  - autopep8
