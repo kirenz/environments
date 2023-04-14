@@ -1,4 +1,4 @@
-name: transformers-env
+name: transformers
 channels:
   - conda-forge
 dependencies:
