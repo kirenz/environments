@@ -24,7 +24,7 @@ Move VS Code to the Applications ("Programme") folder after you have downloaded 
 
 Open this link to import all extensions in VS Code:
 
-- [VS Code profile](https://vscode.dev/profile/github/020c5ef976f3501c8d312314e6e30f53)
+- [VS Code profile](https://vscode.dev/profile/github/e26d676b6abf5fc42b6d6cc3de5b5d9f)
 
 *Choose: Import Profile in Visual Studio Code*
 
