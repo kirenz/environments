@@ -4,9 +4,11 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - pandas
-  - jupyter
-  - tensorflow
-  - altair
-  - matplotlib
-  - autopep8
+  - pip=23.0.1
+  - pip:
+      - pandas
+      - jupyter
+      - tensorflow
+      - altair
+      - matplotlib
+      - autopep8
