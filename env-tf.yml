@@ -4,5 +4,11 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - tensorflow=2.10
-  - ipykernel
+  - pip=23.0
+  - pip:
+      - transformers[tf-cpu]
+      - jupyter
+      - openai
+      - datasets
+      - streamlit
+      - pandas
