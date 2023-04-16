@@ -4,5 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - tensorflow
-  - ipykernel
+  - pip=23.0
+  - pip:
+      - tensorflow
+      - jupyter
