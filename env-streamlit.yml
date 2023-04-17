@@ -3,15 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - pip
-  - pip:
-      - streamlit
-      - pandas
-      - seaborn
-      - scikit-learn
-      - jupyter
-      - altair
-      - plotly
-      - matplotlib
-      - autopep8
+  - python=3.10
+  - streamlit
+  - pandas
+  - scikit-learn
+  - altair
+  - autopep8

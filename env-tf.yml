@@ -6,4 +6,9 @@ dependencies:
   - python=3.10
   - pip=23.0
   - pip:
-      - tensorflow
+      - transformers[tf-cpu]
+      - jupyter
+      - openai
+      - datasets
+      - streamlit
+      - pandas
