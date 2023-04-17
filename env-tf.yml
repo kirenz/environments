@@ -7,4 +7,3 @@ dependencies:
   - pip=23.0
   - pip:
       - tensorflow
-      - jupyter
