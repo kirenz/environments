@@ -1,4 +1,4 @@
-name: transformers
+name: transformers-b
 channels:
   - conda-forge
   - defaults
