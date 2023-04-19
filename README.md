@@ -21,13 +21,13 @@
 Mac: (replace YourUserName with your actual username)
 
 ```bash
-cd /Users/YourUserName/Downloads/environments
+cd /Users/YourUserName/Downloads/environments-main
 ```
 
 Windows (replace YourUserName with your actual username):
 
 ```bash
-cd C:\Users\YourUserName\Downloads\environments
+cd C:\Users\YourUserName\Downloads\environments-main\environments-main
 ```
 
 ---
