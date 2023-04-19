@@ -27,7 +27,7 @@ cd /Users/YourUserName/Downloads/environments-main
 Windows (replace YourUserName with your actual username):
 
 ```bash
-cd C:\Users\YourUserName\Downloads\environments-main\environments-main
+cd C:\Users\YourUserName\Downloads\environments-main\
 ```
 
 ---
