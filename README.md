@@ -16,7 +16,7 @@
 
 - Step 3:
   - Mac: Open your [terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Terminal%20for%20me-,Open%20Terminal,%2C%20then%20double%2Dclick%20Terminal.) and `cd` into the "environment" directory
-  - Windows: Open your [Anaconda promt](https://docs.anaconda.com/anaconda/install/verify-install/#conda) `cd` into the "environment" directory
+  - Windows: Open your Anaconda promt `cd` into the "environment" directory
 
 Mac: (replace YourUserName with your actual username)
 
