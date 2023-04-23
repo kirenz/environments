@@ -1,0 +1,14 @@
+name: dst-pip
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip<=23.0
+  - pip:
+      - pandas
+      - openpyxl
+      - ipykernel
+      - altair==5.0.0rc1
+      - vega_datasets
+      - autopep8
