@@ -1,0 +1,16 @@
+name: metaflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - scikit-learn
+      - metaflow
+      - pandas
+      - jupyter
+      - autopep8
+      - datashader
+      - pyarrow
+      - altair
+      - matplotlib
