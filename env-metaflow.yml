@@ -8,9 +8,6 @@ dependencies:
       - scikit-learn
       - metaflow
       - pandas
-      - jupyter
-      - autopep8
       - datashader
       - pyarrow
-      - altair
       - matplotlib
