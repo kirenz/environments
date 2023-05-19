@@ -6,7 +6,10 @@ dependencies:
   - python=3.10
   - pip
   - pip:
-      - jupyter
-      - pdfplumber
+      - "transformers[torch]"
+      - langchain
       - openai
-      - chromadb
+      - pymilvus
+      - ipykernel
+      - pdfplumber
+      - pandas
