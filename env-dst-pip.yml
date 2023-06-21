@@ -11,4 +11,3 @@ dependencies:
       - ipykernel
       - altair==5.0.0rc1
       - vega_datasets
-      - autopep8
