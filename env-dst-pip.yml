@@ -1,4 +1,4 @@
-name: dst-pip-2
+name: dst-pip
 channels:
   - conda-forge
   - defaults
