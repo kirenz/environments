@@ -9,5 +9,6 @@ dependencies:
       - pandas
       - openpyxl
       - ipykernel
+      - jupyter
       - altair==5.0.0rc1
       - vega_datasets
