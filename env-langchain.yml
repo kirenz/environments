@@ -1,0 +1,15 @@
+name: langchain
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip<=23.0
+  - pip:
+      - pandas==2.0.3
+      - openpyxl
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - altair==5.0.1
+      - "langchain[all]"
