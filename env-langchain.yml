@@ -11,5 +11,11 @@ dependencies:
       - ipykernel
       - notebook
       - jupyterlab
+      - openai
+      - python-dotenv
+      - pypdf
+      - yt_dlp
+      - pydub
       - altair==5.0.1
       - "langchain[all]"
+      - chromadb
