@@ -20,3 +20,4 @@ dependencies:
       - "langchain[all]"
       - chromadb
       - lark
+      - scikit-learn
