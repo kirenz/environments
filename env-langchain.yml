@@ -19,3 +19,4 @@ dependencies:
       - altair==5.0.1
       - "langchain[all]"
       - chromadb
+      - lark
