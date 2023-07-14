@@ -21,3 +21,6 @@ dependencies:
       - chromadb
       - lark
       - scikit-learn
+      - panel
+      - jupyter_bokeh
+      - docarray
