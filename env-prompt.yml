@@ -17,3 +17,4 @@ dependencies:
       - panel
       - jupyter_bokeh
       - tiktoken
+      - utils
