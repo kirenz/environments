@@ -18,3 +18,4 @@ dependencies:
       - jupyter_bokeh
       - tiktoken
       - utils
+      - gradio
