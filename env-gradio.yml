@@ -20,3 +20,4 @@ dependencies:
       - utils
       - gradio
       - "transformers[torch]"
+      - "diffusers[torch]"
