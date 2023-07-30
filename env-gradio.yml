@@ -21,3 +21,4 @@ dependencies:
       - gradio
       - "transformers[torch]"
       - "diffusers[torch]"
+      - text-generation
