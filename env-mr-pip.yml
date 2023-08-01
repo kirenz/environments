@@ -1,0 +1,18 @@
+name: mr-pip
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip<=23.0
+  - pip:
+      - pandas
+      - openpyxl
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - altair
+      - vega_datasets
+      - mysql-connector-python
+      - jupyterlab
+      - scikit-learn
