@@ -16,4 +16,5 @@ dependencies:
       - sqlalchemy
       - jupyterlab
       - scikit-learn
+      - pymysql
       - python-dotenv
