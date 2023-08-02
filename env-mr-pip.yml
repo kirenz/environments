@@ -13,6 +13,7 @@ dependencies:
       - jupyterlab
       - altair
       - vega_datasets
-      - mysql-connector-python
+      - sqlalchemy
       - jupyterlab
       - scikit-learn
+      - python-dotenv
