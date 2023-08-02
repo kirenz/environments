@@ -18,3 +18,5 @@ dependencies:
       - scikit-learn
       - pymysql
       - python-dotenv
+      - cryptography
+      - mysql-connector-python
