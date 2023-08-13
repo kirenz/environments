@@ -1,0 +1,11 @@
+name: transformers-win
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=22.0
+  - pip:
+      - transformers
+      - tensorflow
+      - jupyter
