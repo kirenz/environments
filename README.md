@@ -32,18 +32,24 @@ cd C:\Users\YourUserName\Downloads\environments-main\environments-main
 
 ---
 
-- Step 4: Replace the name "NAME_OF_ENVIRONMENT" with the environment of your choice (e.g. env-bigdata, env-ds, ...) 
+- Step 4: Replace the name "NAME_OF_ENVIRONMENT" with the environment of your choice 
 
 ```bash
 conda env create -f NAME_OF_ENVIRONMENT.yml
+```
+
+For example, `env-lab`: 
+
+```bash
+conda env create -f env-lab.yml
 ```
 
 That's it!
 
 ---
 
-*If you want to use the environment, you simply need to type the name after "env", e.g. for "env-ds" ds:*
+*If you want to use the environment, you simply need to type the name after "env", e.g. for "env-lab" lab:*
 
 ```bash
-conda activate ds
+conda activate lab
 ```
