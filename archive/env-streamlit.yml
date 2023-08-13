@@ -1,0 +1,11 @@
+name: streamlit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - streamlit
+  - pandas
+  - scikit-learn
+  - altair
+  - autopep8
