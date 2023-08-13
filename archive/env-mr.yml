@@ -1,0 +1,15 @@
+name: mr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - openpyxl
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - altair
+  - matplotlib
+  - seaborn
+  - autopep8
