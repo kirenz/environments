@@ -1,0 +1,17 @@
+name: transformers
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - tensorflow
+  - transformers
+  - datasets
+  - pandas
+  - altair
+  - ipython
+  - jupyter
+  - autopep8
+  - evaluate
+  - openai
