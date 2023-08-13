@@ -1,0 +1,14 @@
+name: transformers
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.0
+  - pip:
+      - transformers[tf-cpu]
+      - jupyter
+      - evaluate
+      - openai
+      - datasets
+
