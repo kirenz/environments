@@ -16,3 +16,4 @@ dependencies:
       - utils
       - semantic-kernel
       - 'transformers[torch]'
+      - chromadb
