@@ -24,3 +24,4 @@ dependencies:
       - panel
       - jupyter_bokeh
       - docarray
+      - wikipedia
