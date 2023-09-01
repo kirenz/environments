@@ -22,3 +22,5 @@ dependencies:
       - "transformers[torch]"
       - "diffusers[torch]"
       - text-generation
+      - sentencepiece
+      - protobuf
