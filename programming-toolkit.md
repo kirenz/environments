@@ -1,10 +1,12 @@
 # Programming toolkit
 
+
+
 ## Anaconda
 
-Install the latest version of the Anaconda Individual Edition:
+Install the latest version of Anaconda:
 
-- [💾 Anaconda installation](https://www.anaconda.com/products/individual)
+- [💾 Anaconda installation](https://www.anaconda.com/download)
 
 
 
