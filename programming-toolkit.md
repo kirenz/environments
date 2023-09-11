@@ -6,7 +6,7 @@
 Install the latest version of Git:
 
 
-- [Git](https://git-scm.com/download/win)
+- [💾 Git](https://git-scm.com/download/win)
 
 
 
@@ -14,7 +14,7 @@ Install the latest version of Git:
 
 Install the latest version of Python:
 
-- [Python](https://www.python.org/downloads/)
+- [💾 Python](https://www.python.org/downloads/)
 
 
 ## Anaconda
@@ -23,7 +23,7 @@ Install the latest version of Anaconda:
 
 - [💾 Anaconda installation](https://www.anaconda.com/download)
 
-
+- choose: Just Me (recommended)
 
 ## Visual Studio Code 
 
