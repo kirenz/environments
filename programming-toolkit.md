@@ -56,3 +56,5 @@ If you are a Windows user, install the following software.
 Only for env-kernel:
 
 - [Microsoft C++ Build Tools, Community Edition](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+After the download you need to use Visual Studio Installer to install C++ 
