@@ -9,7 +9,6 @@ Install the latest version of Git:
 - [💾 Git](https://git-scm.com/download/win)
 
 
-
 ## Python
 
 Install the latest version of Python:
@@ -49,3 +48,11 @@ Open this link to import all extensions in VS Code:
 - [VS Code profile](https://vscode.dev/profile/github/053cbc733ee5005f71f92122470e7dd1)
 
 *Choose: Import Profile in Visual Studio Code*
+
+## Windows 
+
+If you are a Windows user, install the following software.
+
+Only for env-kernel:
+
+- [Microsoft C++ Build Tools, Community Edition](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
