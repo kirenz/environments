@@ -1,6 +1,15 @@
 # Programming toolkit
 
 
+## Git
+
+Install the latest version of Git:
+
+
+- [Git](https://git-scm.com/download/win)
+
+
+
 ## Python
 
 Install the latest version of Python:
