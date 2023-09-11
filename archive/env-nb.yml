@@ -1,0 +1,20 @@
+name: nb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - nbgrader
+  - pandas
+  - altair
+  - vega
+  - openpyxl
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - nltk
+  - requests
+  - beautifulsoup4
+  - autopep8
