@@ -24,7 +24,7 @@ Mac: (replace YourUserName with your actual username)
 cd /Users/YourUserName/Downloads/environments-main/ws2324
 ```
 
-Windows (replace YourUserName with your actual username):
+Windows: open `Anaconda Prompt` (replace YourUserName with your actual username):
 
 ```bash
 cd C:\Users\YourUserName\Downloads\environments-main\environments-main\ws2324
