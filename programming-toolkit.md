@@ -49,12 +49,10 @@ Open this link to import all extensions in VS Code:
 
 *Choose: Import Profile in Visual Studio Code*
 
-## Windows 
+## Microsoft C++ Build Tool (only for Windows) 
 
-If you are a Windows user, install the following software.
+If you are a **Windows** user, install the following software if you want to use `env-kernel`:
 
-Only for env-kernel:
-
-- [Microsoft C++ Build Tools, Community Edition](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+- [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
 After the download you need to use Visual Studio Installer to install C++ 
