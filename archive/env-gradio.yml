@@ -1,0 +1,26 @@
+name: gradio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip<=23.0
+  - pip:
+      - pandas
+      - openpyxl
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - openai
+      - python-dotenv
+      - redlines
+      - panel
+      - jupyter_bokeh
+      - tiktoken
+      - utils
+      - gradio
+      - "transformers[torch]"
+      - "diffusers[torch]"
+      - text-generation
+      - sentencepiece
+      - protobuf
