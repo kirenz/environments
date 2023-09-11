@@ -1,6 +1,12 @@
 # Programming toolkit
 
 
+## Python
+
+Install the latest version of Python:
+
+- [Python](https://www.python.org/downloads/)
+
 
 ## Anaconda
 
@@ -11,6 +17,9 @@ Install the latest version of Anaconda:
 
 
 ## Visual Studio Code 
+
+Install the latest version of VS Code:
+
  
 - 💾 Download [VS Code](https://code.visualstudio.com/)  
 
@@ -19,6 +28,8 @@ Move VS Code to the Applications ("Programme") folder after you have downloaded 
 
 ## Quarto
 
+Install the latest version of Quarto:
+
 - 💾 [Quarto](https://quarto.org/docs/get-started/) (only Step 1 relevant):
 
 
@@ -26,8 +37,6 @@ Move VS Code to the Applications ("Programme") folder after you have downloaded 
 
 Open this link to import all extensions in VS Code:
 
-- [VS Code profile](https://vscode.dev/profile/github/e26d676b6abf5fc42b6d6cc3de5b5d9f)
+- [VS Code profile](https://vscode.dev/profile/github/053cbc733ee5005f71f92122470e7dd1)
 
 *Choose: Import Profile in Visual Studio Code*
-
-
