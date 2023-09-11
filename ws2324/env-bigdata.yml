@@ -1,0 +1,25 @@
+name: bigdata
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas
+      - openpyxl
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - altair
+      - vega_datasets
+      - mysql-connector-python
+      - streamlit
+      - gradio
+      - matplotlib
+      - scikit-learn
+      - autopep8
+      - requests
+      - tweepy
+      - beautifulsoup4
+
