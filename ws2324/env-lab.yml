@@ -12,7 +12,6 @@ dependencies:
       - notebook
       - jupyterlab
       - altair
-      - vega_datasets
       - sqlalchemy
       - jupyterlab
       - scikit-learn
