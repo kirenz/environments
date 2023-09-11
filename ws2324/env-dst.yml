@@ -12,7 +12,6 @@ dependencies:
       - notebook
       - jupyterlab
       - altair
-      - vega_datasets
       - mysql-connector-python
       - streamlit
       - gradio
