@@ -14,5 +14,3 @@ dependencies:
       - altair
       - mysql-connector-python
       - streamlit
-      - gradio
-
