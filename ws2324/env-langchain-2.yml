@@ -1,0 +1,17 @@
+name: langchain-2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - openai
+      - python-dotenv
+      - pydantic==1.10.8
+      - langchain==0.0.325
+      - 'langchain[docarray]'
+      - tiktoken
