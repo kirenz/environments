@@ -1,0 +1,24 @@
+name: analytics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas
+      - openpyxl
+      - ipykernel
+      - notebook
+      - jupyterlab
+      - altair
+      - sqlalchemy
+      - jupyterlab
+      - scikit-learn
+      - pymysql
+      - python-dotenv
+      - cryptography
+      - mysql-connector-python
+      - seaborn
+      - matplotlib
+      - streamlit
