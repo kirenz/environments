@@ -10,7 +10,6 @@ dependencies:
       - openpyxl
       - ipykernel
       - notebook
-      - jupyterlab
       - altair
       - sqlalchemy
       - jupyterlab
