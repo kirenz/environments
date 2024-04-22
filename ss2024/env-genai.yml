@@ -7,8 +7,10 @@ dependencies:
   - pip
   - pip:
       - pandas
+      - jupyter
+      - ipykernel
+      - openpyxl
       - streamlit
-      - langchain
       - openai
       - streamlit-feedback
       - python-dotenv
