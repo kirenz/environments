@@ -46,6 +46,17 @@ conda env create -f env-genai.yml
 
 Dieser Prozess kann einige Minuten dauern, da alle erforderlichen Pakete heruntergeladen und installiert werden.
 
+Hinweise:
+
+* **`conda`:**  Dies ist der Befehl zum Aufrufen der Conda-Paketverwaltung. Conda ist ein Werkzeug, das die Verwaltung von Paketen und Umgebungen für verschiedene Programmiersprachen, insbesondere Python, ermöglicht.
+* **`env`:**  Dieser Unterbefehl von Conda bezieht sich auf die Verwaltung von Umgebungen. Mit `env` können verschiedene Umgebungen erstellt, aktiviert, deaktiviert oder entfernt werden.
+* **`create`:**  Dieser Unterbefehl weist Conda an, eine neue Umgebung zu erstellen.
+* **`-f env-genai.yml`:**  Diese Option gibt an, dass die neue Umgebung anhand einer YAML-Datei erstellt werden soll. 
+    * `-f` steht für "file" (Datei).
+    * `env-genai.yml` ist der Name der YAML-Datei, die die Spezifikationen für die Umgebung enthält, wie z. B. die Liste der zu installierenden Pakete und deren Versionen.
+    * Diese YAML-Datei enthält eine Liste der Pakete und deren Versionen, die in der neuen Umgebung mit Hilfe von pip installiert werden sollen. Sie enthält auch die Python-Version und andere Einstellungen für die Umgebung festlegen. 
+
+
 ## Schritt 5: Neue Umgebung aktivieren
 
 Nachdem die Umgebung erstellt wurde, diese mit folgendem Befehl aktivieren:
