@@ -66,7 +66,7 @@ Hinweise:
 Nachdem die Umgebung erstellt wurde, diese mit folgendem Befehl aktivieren:
 
 ```bash
-conda activate genai-om2
+conda activate genai
 ```
 
 
@@ -90,7 +90,7 @@ curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws
 # Für Windows: dir
 # Für macOS: ls
 conda env create -f env-genai.yml
-conda activate genai-om2
+conda activate genai
 conda info --envs
 ```
 
