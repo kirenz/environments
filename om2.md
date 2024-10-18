@@ -1,6 +1,6 @@
-# Anleitung
+# Anaconda Umgebung erstellen
 
-Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen und daraus eine Conda-Umgebung zu erstellen. Die Anleitung funktioniert sowohl für Windows (mit Anaconda Prompt) als auch für macOS (mit Terminal).
+Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen und daraus eine Conda-Umgebung zu erstellen. 
 
 ## Schritt 1: Anaconda Prompt oder Terminal öffnen
 
@@ -11,7 +11,7 @@ Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen 
 
 Folgenden Befehl eingeben, um die YAML-Datei herunterzuladen:
 
-```bash
+```{bash}
 curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-genai.yml
 ```
 
@@ -48,10 +48,10 @@ Dieser Prozess kann einige Minuten dauern, da alle erforderlichen Pakete herunte
 Nachdem die Umgebung erstellt wurde, diese mit folgendem Befehl aktivieren:
 
 ```bash
-conda activate genai
+conda activate genai-om2
 ```
 
-Hinweis: Der Name der Umgebung kann in der YAML-Datei anders definiert sein. Den Befehl gegebenenfalls anpassen.
+
 
 ## Schritt 6: Überprüfen der aktiven Umgebung
 
@@ -72,7 +72,7 @@ curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws
 # Für Windows: dir
 # Für macOS: ls
 conda env create -f env-genai.yml
-conda activate genai
+conda activate genai-om2
 conda info --envs
 ```
 
