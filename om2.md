@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="[ungültige URL entfernt]"></script>
-</head>
-<body>
-
 # Anaconda Umgebung erstellen
 
 Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen und daraus eine Conda-Umgebung zu erstellen. 
@@ -88,27 +81,5 @@ conda info --envs
 
 Nach Abschluss dieser Schritte wurde erfolgreich eine Datei von GitHub heruntergeladen und daraus eine neue Conda-Umgebung erstellt.
 
-<button class="btn" data-clipboard-target="#codeblock7">Code kopieren</button>
-<span id="codeblock7_copied" style="display:none; color:green;">Code kopiert!</span>
 
-Nach Abschluss dieser Schritte wurde erfolgreich eine Datei von GitHub heruntergeladen und daraus eine neue Conda-Umgebung erstellt.
-
-<script>
-var clipboard = new ClipboardJS('.btn');
-
-clipboard.on('success', function(e) {
-// ID des kopierten Codeblocks ermitteln
-var codeblockId = e.trigger.dataset.clipboardTarget.replace('#', '');
-// Erfolgsmeldung anzeigen
-var copiedMessage = document.getElementById(codeblockId + '_copied');
-copiedMessage.style.display = 'inline';
-// Meldung nach 2 Sekunden wieder ausblenden
-setTimeout(function() {
-copiedMessage.style.display = 'none';
-}, 2000);
-});
-</script>
-
-</body>
-</html>
 
