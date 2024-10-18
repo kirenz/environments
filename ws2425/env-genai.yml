@@ -1,4 +1,4 @@
-name: genai-om2
+name: genai
 channels:
   - conda-forge
   - defaults
