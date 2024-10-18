@@ -1,6 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="[ungültige URL entfernt]"></script>
+</head>
+<body>
+
 # Anaconda Umgebung erstellen
 
 Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen und daraus eine Conda-Umgebung zu erstellen. 
+
+Eine Conda-Umgebung ist wie ein Container, der eine spezifische Sammlung von Softwarepaketen und deren Abhängigkeiten enthält. Dies ermöglicht es, verschiedene Projekte mit unterschiedlichen Anforderungen zu verwalten, ohne dass es zu Konflikten zwischen den benötigten Paketen kommt. So kann beispielsweise ein Projekt Python 2.7 und TensorFlow 1.0 benötigen, während ein anderes Projekt Python 3.8 und PyTorch verwendet. 
+Durch die Verwendung von Conda-Umgebungen kann man beide Projekte auf demselben System verwalten, ohne dass es zu Problemen kommt.
 
 ## Schritt 1: Anaconda Prompt oder Terminal öffnen
 
@@ -11,7 +21,7 @@ Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen 
 
 Folgenden Befehl eingeben, um die YAML-Datei herunterzuladen:
 
-```{bash}
+```bash
 curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-genai.yml
 ```
 
@@ -77,3 +87,28 @@ conda info --envs
 ```
 
 Nach Abschluss dieser Schritte wurde erfolgreich eine Datei von GitHub heruntergeladen und daraus eine neue Conda-Umgebung erstellt.
+
+<button class="btn" data-clipboard-target="#codeblock7">Code kopieren</button>
+<span id="codeblock7_copied" style="display:none; color:green;">Code kopiert!</span>
+
+Nach Abschluss dieser Schritte wurde erfolgreich eine Datei von GitHub heruntergeladen und daraus eine neue Conda-Umgebung erstellt.
+
+<script>
+var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+// ID des kopierten Codeblocks ermitteln
+var codeblockId = e.trigger.dataset.clipboardTarget.replace('#', '');
+// Erfolgsmeldung anzeigen
+var copiedMessage = document.getElementById(codeblockId + '_copied');
+copiedMessage.style.display = 'inline';
+// Meldung nach 2 Sekunden wieder ausblenden
+setTimeout(function() {
+copiedMessage.style.display = 'none';
+}, 2000);
+});
+</script>
+
+</body>
+</html>
+
