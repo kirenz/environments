@@ -1,9 +1,8 @@
-# Anaconda Umgebung erstellen
+# Anaconda Umgebung erstellen :sparkles:
 
 Diese Anleitung führt durch den Prozess, eine Datei von GitHub herunterzuladen und daraus eine Conda-Umgebung zu erstellen. 
 
-Eine Conda-Umgebung ist wie ein Container, der eine spezifische Sammlung von Softwarepaketen und deren Abhängigkeiten enthält. Dies ermöglicht es, verschiedene Projekte mit unterschiedlichen Anforderungen zu verwalten, ohne dass es zu Konflikten zwischen den benötigten Paketen kommt. So kann beispielsweise ein Projekt Python 2.7 und TensorFlow 1.0 benötigen, während ein anderes Projekt Python 3.8 und PyTorch verwendet. 
-Durch die Verwendung von Conda-Umgebungen kann man beide Projekte auf demselben System verwalten, ohne dass es zu Problemen kommt.
+Eine Conda-Umgebung ist wie ein Container, der eine spezifische Sammlung von Softwarepaketen und deren Abhängigkeiten enthält. Dies ermöglicht es, verschiedene Projekte mit unterschiedlichen Anforderungen zu verwalten, ohne dass es zu Konflikten zwischen den benötigten Paketen kommt. 
 
 ## Schritt 1: Anaconda Prompt oder Terminal öffnen
 
@@ -19,6 +18,10 @@ curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws
 ```
 
 Dieser Befehl lädt die Datei herunter und speichert sie im aktuellen Verzeichnis unter dem Namen `env-genai.yml`.
+
+> [!NOTE]
+> YAML ist eine Daten-Serialisierungssprache, die häufig zum Schreiben von Konfigurationsdateien verwendet wird. Die Dateien enthalten Textdaten, die in einer hierarchischen Struktur angeordnet sind und können als `.yaml` oder `.yml` verwendet werden.
+
 
 ## Schritt 3: Überprüfen, ob die Datei heruntergeladen wurde
 
@@ -57,6 +60,7 @@ Hinweise:
     * Diese YAML-Datei enthält eine Liste der Pakete und deren Versionen, die in der neuen Umgebung mit Hilfe von pip installiert werden sollen. Sie enthält auch die Python-Version und andere Einstellungen für die Umgebung festlegen. 
 
 
+
 ## Schritt 5: Neue Umgebung aktivieren
 
 Nachdem die Umgebung erstellt wurde, diese mit folgendem Befehl aktivieren:
@@ -91,6 +95,12 @@ conda info --envs
 ```
 
 Nach Abschluss dieser Schritte wurde erfolgreich eine Datei von GitHub heruntergeladen und daraus eine neue Conda-Umgebung erstellt.
+
+Weitere Hinweise zu `.yml`-Dateien und Anaconda:
+
+- [Erstellen einer Umgebung aus einer environment.yml-Datei](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+
+- [Manuelles Erstellen einer Umgebungsdatei](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)
 
 
 
