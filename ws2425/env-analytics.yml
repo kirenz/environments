@@ -1,1 +1,17 @@
-
+name: analytics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - pandas
+      - jupyter
+      - ipykernel
+      - openpyxl
+      - streamlit
+      - openai
+      - streamlit-feedback
+      - python-dotenv
+      - scikit-learn
