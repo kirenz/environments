@@ -14,10 +14,10 @@ Eine Conda-Umgebung ist wie ein Container, der eine spezifische Sammlung von Sof
 Folgenden Befehl eingeben, um die YAML-Datei herunterzuladen:
 
 ```bash
-curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-genai.yml
+curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-analytics.yml
 ```
 
-Dieser Befehl lädt die Datei herunter und speichert sie im aktuellen Verzeichnis unter dem Namen `env-genai.yml`.
+Dieser Befehl lädt die Datei herunter und speichert sie im aktuellen Verzeichnis unter dem Namen `env-analytics.yml`.
 
 > [!NOTE]
 > YAML ist eine Daten-Serialisierungssprache, die häufig zum Schreiben von Konfigurationsdateien verwendet wird. Die Dateien enthalten Textdaten, die in einer hierarchischen Struktur angeordnet sind und können als `.yaml` oder `.yml` verwendet werden.
@@ -37,14 +37,14 @@ Je nach Betriebssystem den entsprechenden Befehl eingeben, um den Inhalt des akt
   ls
   ```
 
-`env-genai.yml` sollte in der Liste der Dateien erscheinen.
+`env-analytics.yml` sollte in der Liste der Dateien erscheinen.
 
 ## Schritt 4: Conda-Umgebung erstellen
 
 Den folgenden Befehl verwenden, um eine neue Conda-Umgebung aus der heruntergeladenen YAML-Datei zu erstellen:
 
 ```bash
-conda env create -f env-genai.yml
+conda env create -f env-analytics.yml
 ```
 
 Dieser Prozess kann einige Minuten dauern, da alle erforderlichen Pakete heruntergeladen und installiert werden.
@@ -66,7 +66,7 @@ Hinweise:
 Nachdem die Umgebung erstellt wurde, diese mit folgendem Befehl aktivieren:
 
 ```bash
-conda activate genai
+conda activate analytics
 ```
 
 
@@ -86,11 +86,11 @@ Dies listet alle verfügbaren Umgebungen auf. Die aktive Umgebung wird mit einem
 Hier sind noch einmal alle Befehle in der richtigen Reihenfolge:
 
 ```bash
-curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-genai.yml
+curl -O https://raw.githubusercontent.com/kirenz/environments/refs/heads/main/ws2425/env-analytics.yml
 # Für Windows: dir
 # Für macOS: ls
-conda env create -f env-genai.yml
-conda activate genai
+conda env create -f env-analytics.yml
+conda activate analytics
 conda info --envs
 ```
 
